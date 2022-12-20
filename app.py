@@ -20,6 +20,11 @@ def page_not_found(_):
 def page_not_found(_):
     return "На сервере что то пошло не так"
 
+
+def create_app():
+    pass
+
+
 app = create_app()
 if __name__ == "__main__":
     app.run()
