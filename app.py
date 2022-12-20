@@ -25,6 +25,7 @@ def create_app():
     pass
 
 
-app = create_app()
+
 if __name__ == "__main__":
+    app = create_app()
     app.run()
